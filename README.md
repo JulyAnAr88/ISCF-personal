@@ -2,7 +2,7 @@
    <img src="/Banner-principal-2.jpg">
    </p>
 
-# Repositorio personal 🧩
+# Repositorio personal ☯
 
 El siguiente repositorio fue creado a los fines de organizar y disponer de manera más accesible los trabajos individuales para la materia _Introducción a los Sistemas Ciber Físicos_ de la carrera _Ingeniería en Inteligencia Artificial_ de la **FICH - UNL**
 
@@ -28,7 +28,10 @@ Repositorio-Individual/
 │   ├── Documentación
 │   │   └── Informe_Entrega_Individual_2_Aragón.pdf
 ├── 3. TP3
-│   ├── Diagramas
+│   ├── Código
+│   │   └── codigo_for_led.ino
+│   ├── Bin-simulIDE
+│   │   └── Placa_for_LED.sim1
 ├── Banner-principal-2.jpg
 ├── LICENSE
 └── README.md
@@ -48,9 +51,7 @@ Repositorio-Individual/
 
 ### 2. TP2 🚙
 
-El Múltiplo N6 es un robot desarrollado y lanzado al mercado por la empresa de robótica educativa RobotGroup. Es un robot muy fácil de utilizar y que, a su vez cuenta con una gran capacidad de expansión. Esto lo convierte en ideal, tanto para dar los primeros pasos en robótica, como para ser utilizado como plataforma educativa y de investigación.
-El N6-MAX se encuentra mejorado en distintas partes tanto mecánicas como electrónicas, por ejemplo nuevos motores de 12v a 24v con una caja planetária de reducción de 256 rpm, chasis mejorado y de forma rústica con placas de acrílicos con vários orifícios para la fácil adaptación de nuevos sensores, cuenta con una nueva placa adaptadora "shield de expansión de sensores" donde se pueden
-agregar mas sensores que trabajan con operación binária como led, cny70, bumper, ldr, etc.
+Diagramas de bloque y flujo del robot N6-MAX.
 
    <p align="center">
    <img src="/TP2/n6max6_500x0.jpg">
@@ -76,11 +77,11 @@ Diagrama de flujo
 
 ### 3. TP3 📊
 
-#### Diagramas 📈
+#### Código 📈
 
-   <p align="center">
-   <img src="/TP3/Diagramas/ISCF-pava.drawio.png">
-   </p>
+
+#### Bin-simulIDE ♾
+
 
 #### Documentación 📋 
 
