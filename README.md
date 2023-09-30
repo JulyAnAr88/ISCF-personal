@@ -28,10 +28,12 @@ Repositorio-Individual/
 │   ├── Documentación
 │   │   └── Informe_Entrega_Individual_2_Aragón.pdf
 ├── 3. TP3
-│   ├── Código
-│   │   └── codigo_for_led.ino
 │   ├── Bin-simulIDE
 │   │   └── Placa_for_LED.sim1
+│   ├── Código
+│   │   └── codigo_for_led.ino
+│   ├── Diagramas
+│   │   ├── ISCB-Autobot.drawio.png
 ├── Banner-principal-2.jpg
 ├── LICENSE
 └── README.md
@@ -77,11 +79,31 @@ Diagrama de flujo
 
 ### 3. TP3 📊
 
-#### Código 📈
-
-
 #### Bin-simulIDE ♾
 
+<p align="center">
+   <img src="/TP3/Bin-simulIDE/Placa_for_LED.png">
+   </p>
+
+
+#### Código <i class="fa-solid fa-code"></i>
+
+```
+void setup() {
+   ...
+}
+
+void loop{
+   ...
+}
+
+```
+
+#### Diagramas 📈
+
+<p align="center">
+   <img src="/TP3/Diagramas/ISCF-for-LED.drawio.png">
+   </p>
 
 #### Documentación 📋 
 

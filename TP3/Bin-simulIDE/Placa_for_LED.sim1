@@ -1,71 +1,61 @@
-<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
 
-<item itemtype="Subcircuit" CircId="Uno-4" mainComp="false" Show_id="true" Show_Val="false" Pos="1064,632" rotation="0" hflip="1" vflip="1" label="Uno" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
-<mainCompProps itemtype="MCU" CircId="4_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="4_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="build/arduino.avr.uno/for_led.ino.with_bootloader.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+<item itemtype="Subcircuit" CircId="Uno-4" mainComp="false" Show_id="true" Show_Val="false" Pos="680,-60" rotation="0" hflip="1" vflip="1" label="Uno" idLabPos="84.236,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="4_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="4_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="G:/Esc/ISCF-personal/TP3/Código/codigo_for_led/build/arduino.avr.uno/codigo_for_led.ino.with_bootloader.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
 </item>
 
-<item itemtype="Push" CircId="Push-5" mainComp="false" Show_id="false" Show_Val="false" Pos="820,728" rotation="0" hflip="1" vflip="1" label="Push-5" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Polos" />
+<item itemtype="Push" CircId="Push-5" mainComp="false" Show_id="true" Show_Val="false" Pos="568,-52" rotation="0" hflip="1" vflip="1" label="Push-Delay" idLabPos="-11.2411,-28.5533" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Polos" />
 
-<item itemtype="Oscope" CircId="Oscope-8" mainComp="false" Show_id="false" Show_Val="false" Pos="592,788" rotation="0" hflip="1" vflip="1" label="Oscope-8" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" TimDiv="1000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels="IN,OUT,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+<item itemtype="Amperimeter" CircId="Amperimeter-11" mainComp="false" Show_id="false" Show_Val="false" Pos="640,164" rotation="0" hflip="1" vflip="1" label="Amperimeter-11" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Amperimeter" CircId="Amperimeter-11" mainComp="false" Show_id="false" Show_Val="false" Pos="980,820" rotation="0" hflip="1" vflip="1" label="Amperimeter-11" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Ground" CircId="Ground-13" mainComp="false" Show_id="false" Show_Val="false" Pos="672,252" rotation="0" hflip="1" vflip="1" label="Ground-13" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Ground" CircId="Ground-13" mainComp="false" Show_id="false" Show_Val="false" Pos="988,944" rotation="0" hflip="1" vflip="1" label="Ground-13" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Tunnel" CircId="Tunnel-24" mainComp="false" Show_id="false" Show_Val="false" Pos="568,84" rotation="0" hflip="1" vflip="1" label="Tunnel-24" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="IN" />
 
-<item itemtype="Tunnel" CircId="Tunnel-24" mainComp="false" Show_id="false" Show_Val="false" Pos="904,760" rotation="0" hflip="1" vflip="1" label="Tunnel-24" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="IN" />
+<item itemtype="Tunnel" CircId="Tunnel-25" mainComp="false" Show_id="false" Show_Val="false" Pos="624,256" rotation="0" hflip="1" vflip="1" label="Tunnel-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="OUT" />
 
-<item itemtype="Tunnel" CircId="Tunnel-25" mainComp="false" Show_id="false" Show_Val="false" Pos="988,892" rotation="0" hflip="1" vflip="1" label="Tunnel-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="OUT" />
+<item itemtype="Resistor" CircId="Resistor-48" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="496,144" rotation="-360" hflip="1" vflip="1" label="Resistor-48" idLabPos="-16,-24" labelrot="0" valLabPos="-11.4467,10.5533" valLabRot="0" Resistance="100 Ω" />
 
-<item itemtype="Tunnel" CircId="Tunnel-29" mainComp="false" Show_id="false" Show_Val="false" Pos="1396,1420" rotation="0" hflip="1" vflip="1" label="Tunnel-29" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="OUT" />
+<item itemtype="Oscope" CircId="Oscope-94" mainComp="false" Show_id="false" Show_Val="false" Pos="644,-220" rotation="0" hflip="1" vflip="1" label="Oscope-94" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" TimDiv="1000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels="IN,OUT,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
 
-<item itemtype="Ground" CircId="Ground-31" mainComp="false" Show_id="false" Show_Val="false" Pos="1424,1456" rotation="0" hflip="1" vflip="1" label="Ground-31" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Push" CircId="Push-111" mainComp="false" Show_id="true" Show_Val="false" Pos="504,48" rotation="0" hflip="1" vflip="1" label="Push-For" idLabPos="-54.4975,7.11421" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Polos" />
 
-<item itemtype="Push" CircId="Push-32" mainComp="false" Show_id="false" Show_Val="false" Pos="1400,1252" rotation="0" hflip="1" vflip="1" label="Push-32" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Polos" />
+<item itemtype="Voltimeter" CircId="Voltimeter-153" mainComp="false" Show_id="false" Show_Val="false" Pos="584,216" rotation="0" hflip="1" vflip="1" label="Voltimeter-153" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Oscope" CircId="Oscope-33" mainComp="false" Show_id="false" Show_Val="false" Pos="1160,1248" rotation="0" hflip="1" vflip="1" label="Oscope-33" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" TimDiv="2686420" TimPos="-6629508451,-6629508451,-6629508451,-6629508451," VolDiv="1,1,1,1," Tunnels="IN,OUT,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+<item itemtype="Node" CircId="Node-115" mainComp="false" Pos="840,36" />
 
-<item itemtype="Resistor" CircId="Resistor-34" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="1348,1360" rotation="-90" hflip="1" vflip="1" label="Resistor-34" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+<item itemtype="Node" CircId="Node-159" mainComp="false" Pos="644,216" />
 
-<item itemtype="Subcircuit" CircId="Uno-35" mainComp="false" Show_id="true" Show_Val="false" Pos="1464,1228" rotation="0" hflip="1" vflip="1" label="Uno-35" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
-<mainCompProps itemtype="MCU" CircId="1_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="1_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
-</item>
+<item itemtype="Node" CircId="Node-173" mainComp="false" Pos="572,100" />
 
-<item itemtype="Tunnel" CircId="Tunnel-36" mainComp="false" Show_id="false" Show_Val="false" Pos="1336,1332" rotation="0" hflip="1" vflip="1" label="Tunnel-36" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="IN" />
+<item itemtype="Node" CircId="Node-175" mainComp="false" Pos="512,144" />
 
-<item itemtype="Amperimeter" CircId="Amperimeter-38" mainComp="false" Show_id="false" Show_Val="false" Pos="1416,1372" rotation="0" hflip="1" vflip="1" label="Amperimeter-38" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="Connector" uid="connector-120" startpinid="Push-111-pinP0" endpinid="Node-115-0" pointList="488,48,488,-128,900,-128,900,36,840,36" />
 
-<item itemtype="Resistor" CircId="Resistor-48" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="904,796" rotation="-90" hflip="1" vflip="1" label="Resistor-48" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+<item itemtype="Connector" uid="connector-121" startpinid="Push-5-pinP0" endpinid="Node-115-1" pointList="552,-52,552,-96,860,-96,860,36,840,36" />
 
-<item itemtype="Node" CircId="Node-30" mainComp="false" Pos="1348,1332" />
+<item itemtype="Connector" uid="connector-122" startpinid="Node-115-2" endpinid="Uno-4-5V0" pointList="840,36,832,36" />
 
-<item itemtype="Node" CircId="Node-37" mainComp="false" Pos="1424,1420" />
+<item itemtype="Connector" uid="connector-123" startpinid="Push-111-switch0pinN" endpinid="Uno-4-10" pointList="520,48,688,48,688,44" />
 
-<item itemtype="Connector" uid="connector-49" startpinid="Push-5-switch0pinN" endpinid="Uno-4-10" pointList="836,728,1072,728,1072,736" />
+<item itemtype="Connector" uid="connector-117" startpinid="Tunnel-25-pin" endpinid="Node-159-0" pointList="624,256,644,256,644,216" />
 
-<item itemtype="Connector" uid="connector-50" startpinid="Amperimeter-11-rPin" endpinid="Ground-13-Gnd" pointList="988,836,988,928" />
+<item itemtype="Connector" uid="Connector-157" startpinid="Resistor-48-rPin" endpinid="Node-175-0" pointList="512,144,512,144" />
 
-<item itemtype="Connector" uid="connector-51" startpinid="Amperimeter-38-lPin" endpinid="Resistor-34-lPin" pointList="1408,1388,1408,1404,1348,1404,1348,1376" />
+<item itemtype="Connector" uid="Connector-158" startpinid="Voltimeter-153-rPin" endpinid="Node-159-1" pointList="592,232,644,232,644,216" />
 
-<item itemtype="Connector" uid="connector-52" startpinid="Uno-35-5V0" endpinid="Push-32-pinP0" pointList="1616,1324,1656,1324,1656,1180,1352,1180,1352,1252,1384,1252" />
+<item itemtype="Connector" uid="Connector-151" startpinid="Resistor-48-lPin" endpinid="Node-173-0" pointList="480,144,480,100,572,100" />
 
-<item itemtype="Connector" uid="connector-53" startpinid="Node-37-2" endpinid="Tunnel-29-pin" pointList="1424,1420,1396,1420" />
+<item itemtype="Connector" uid="Connector-171" startpinid="Uno-4-1" endpinid="Push-5-switch0pinN" pointList="688,-36,596,-36,596,-52,584,-52" />
 
-<item itemtype="Connector" uid="connector-54" startpinid="Node-30-2" endpinid="Uno-35-2" pointList="1348,1332,1348,1276,1444,1276,1444,1260,1472,1260" />
+<item itemtype="Connector" uid="Connector-172" startpinid="Uno-4-2" endpinid="Node-173-1" pointList="688,-28,600,-28,600,100,572,100" />
 
-<item itemtype="Connector" uid="connector-55" startpinid="Ground-31-Gnd" endpinid="Node-37-0" pointList="1424,1440,1424,1420" />
+<item itemtype="Connector" uid="Connector-174" startpinid="Node-173-2" endpinid="Tunnel-24-pin" pointList="572,100,572,84,568,84" />
 
-<item itemtype="Connector" uid="connector-56" startpinid="Node-37-1" endpinid="Amperimeter-38-rPin" pointList="1424,1420,1424,1388" />
+<item itemtype="Connector" uid="Connector-176" startpinid="Node-175-2" endpinid="Voltimeter-153-lPin" pointList="512,144,512,184,468,184,468,240,576,240,576,232" />
 
-<item itemtype="Connector" uid="connector-57" startpinid="Tunnel-36-pin" endpinid="Node-30-1" pointList="1336,1332,1348,1332" />
+<item itemtype="Connector" uid="Connector-177" startpinid="Node-175-1" endpinid="Amperimeter-11-lPin" pointList="512,144,596,144,596,180,632,180" />
 
-<item itemtype="Connector" uid="connector-58" startpinid="Push-32-switch0pinN" endpinid="Uno-35-1" pointList="1416,1252,1472,1252" />
-
-<item itemtype="Connector" uid="connector-59" startpinid="Resistor-34-rPin" endpinid="Node-30-0" pointList="1348,1344,1348,1332" />
-
-<item itemtype="Connector" uid="connector-60" startpinid="Amperimeter-11-lPin" endpinid="Resistor-48-lPin" pointList="972,836,904,836,904,812" />
-
-<item itemtype="Connector" uid="connector-61" startpinid="Resistor-48-rPin" endpinid="Uno-4-12" pointList="904,780,904,752,1072,752" />
-
-<item itemtype="Connector" uid="connector-62" startpinid="Uno-4-5V0" endpinid="Push-5-pinP0" pointList="1216,728,1260,728,1260,568,760,568,760,728,804,728" />
+<item itemtype="Connector" uid="Connector-160" startpinid="Node-159-2" endpinid="Ground-13-Gnd" pointList="644,216,644,204,672,204,672,236" />
 
 </circuit>
