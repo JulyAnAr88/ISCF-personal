@@ -32,8 +32,9 @@ Repositorio-Individual/
 │   │   └── Placa_for_LED.sim1
 │   ├── Código
 │   │   └── codigo_for_led.ino
-│   ├── Diagramas
-│   │   └── ISCB-Autobot.drawio.png
+│   └── Diagramas
+│       ├── ISCB-Autobot.drawio.png
+│       └──Informe_Entrega_Individual_3_Aragón.pdf
 ├── Banner-principal-2.jpg
 ├── LICENSE
 └── README.md
